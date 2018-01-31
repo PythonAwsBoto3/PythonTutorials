@@ -1,1 +1,3 @@
 
+'clear', 'copy', 'fromkeys', 'get', 'has_key', 'ite
+ms', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values', 'viewitems', 'viewkeys', 'viewvalues'
