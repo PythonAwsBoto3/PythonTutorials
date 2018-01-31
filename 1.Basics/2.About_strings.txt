@@ -92,4 +92,4 @@ print(string1+3) : you will get error beacuse we cant add string and numbers
 print(string1*3) jsut see the output
 
 
-
+https://www.programiz.com/python-programming/string
