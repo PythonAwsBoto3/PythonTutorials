@@ -2,14 +2,28 @@ my_name1="Narendra Kumar Reddy"
 my_name2="narendra kumar reddy"
 my_name3="narendrakumarreddy"
 your_string_variable=my_name1
+
+How to print a string?
+print(your_string_variable)
+
 #Slicing of a string
 print(your_string_variable)
 print(your_string_variable[:])
 print(your_string_variable[2:9])
 print(your_string_variable[2:9:1])
 print(your_string_variable[2:9:2])
+print(your_string_variable[3])
 
 print(your_string_variable[:-1])
+
+How to change or delete a string?
+your_string_variable[3]='x' Not possible it will give error
+TypeError: 'str' object does not support item assignment.
+
+Strings are immutable. This means that elements of a string cannot be changed once it has been assigned. We can simply reassign different strings to the same name.
+
+del my_string[1]
+TypeError: 'str' object doesn't support item deletion
 
 #Length of a function: 
 print(len(your_string_variable))
@@ -32,6 +46,8 @@ print(your_string_variable.isalnum())  #only numbers and alphabets
 print(your_string_variable.isspace())
 print(your_string_variable.endswith('your_argument'))
 print(your_string_variable.startswith('your_argument'))
+
+Above methods are also called as boolean methods because their output is alwasy eithere True/False
 
 #Imp string functions: index,find,replace,count,join,split,strip
  
@@ -65,3 +81,12 @@ print(your_string_variable.lstrip())
 #Important:
 string = "Hello World"
 print( ' '.join(reversed(string)))
+
+#String Concatination/adding strings:
+strin1="Narendra"
+string2="Kumar"
+print(string1+string2)
+print(string1+" "+string2)
+print(string1+" 3")
+print(string1+3) : you will get error beacuse we cant add string and numbers
+print(string1*3) jsut see the output
