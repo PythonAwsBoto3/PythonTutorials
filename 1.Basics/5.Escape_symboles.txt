@@ -10,7 +10,7 @@ ex: print("") and print("\v") you can obersver
 
 \'	Single quote
 \"	Double quote
-
+\\  Backslah
 
 
 x="hi it is Python's"
