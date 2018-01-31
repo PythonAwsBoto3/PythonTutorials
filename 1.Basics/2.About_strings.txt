@@ -51,9 +51,21 @@ Above methods are also called as boolean methods because their output is alwasy 
 
 #Imp string functions: index,find,replace,count,join,split,strip
  
-print(your_string_variable.index('character/string')   #index and find will give the index of first occurence of a charter/string
-print(your_string_variable.find('character/string')    #If character/string is not found then index method will give error
-                                                       #but find wont give error instead it will give -1 if character/string doesnt exist.
+print(your_string_variable.index('character/string')
+print(your_string._variable.index('character/string',startingindex,endingindex))
+
+print(your_string_variable.find('character/string')   
+print(your_string_variable.find('character/string',startingindex,endingindex))
+
+
+#index and find will give the index of first occurence of a charter/string
+#If character/string is not found then index method will give error
+#but find wont give error instead it will give -1 if character/string doesnt exist.
+                                                       
+                                   
+print(your_string_variable.count('character/string')   
+print(your_string_variable.count('character/string',startingindex,endingindex))
+                                   
                                                        
 print(your_string_variable.replace(searching_word/character,replacing_word/string) 
 Note: it will replace in all occurence of your searching_word with replacing_word/string
