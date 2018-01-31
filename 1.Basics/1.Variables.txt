@@ -11,6 +11,8 @@ stroing strings/characters into a variable:
 my_name="Narendra"
 x='P'
 
+x,y=4,5
+x=6;y=56
 
 
 Note: We will cover remaining concepts later..
