@@ -33,11 +33,14 @@ print(your_string_variable.isspace())
 print(your_string_variable.endswith('your_argument'))
 print(your_string_variable.startswith('your_argument'))
 
-#Imp string functions: index,find,count,join,split,strip
+#Imp string functions: index,find,replace,count,join,split,strip
  
 print(your_string_variable.index('character/string')   #index and find will give the index of first occurence of a charter/string
 print(your_string_variable.find('character/string')    #If character/string is not found then index method will give error
                                                        #but find wont give error instead it will give -1 if character/string doesnt exist.
+                                                       
+print(your_string_variable.replace(searching_word/character,replacing_word/string) 
+Note: it will replace in all occurence of your searching_word with replacing_word/string
                                                        
 print("".join(your_string_variable)                                                          
 print(" ".join(your_string_variable)                                                          
@@ -62,9 +65,3 @@ print(your_string_variable.lstrip())
 #Important:
 string = "Hello World"
 print( ' '.join(reversed(string)))
- 
- 
- 
- 
- 
- 
