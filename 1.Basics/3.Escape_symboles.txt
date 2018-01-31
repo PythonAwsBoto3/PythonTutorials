@@ -38,7 +38,7 @@ so wherenver if you are working in windows you should take care: print("c:\\netw
 
 
 
-
+https://www.programiz.com/python-programming/string
 
 
 
