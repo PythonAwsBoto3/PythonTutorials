@@ -1,0 +1,2 @@
+imap-->internet  message access protocal: https://pymotw.com/2/imaplib/
+smtp-->simple mail transfer protocal:prot http://www.pythonforbeginners.com/code-snippets-source-code/using-python-to-send-email
