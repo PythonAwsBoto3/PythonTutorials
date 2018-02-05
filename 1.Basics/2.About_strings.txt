@@ -88,7 +88,13 @@ Note: split and strip defautl argument is space.
 
 print(your_string_variable.rstrip())
 print(your_string_variable.lstrip())
+#ljust(), rjust(), center()
+x="Menu"
+pritn x.center(30,' ')
+print x.center(30,'*')
 
+print x.ljust(30,'-')
+print x.rjust(30,'-')
 
 #Important:
 string = "Hello World"
