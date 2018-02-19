@@ -1,5 +1,6 @@
-https://docs.djangoproject.com/en/2.0/topics/logging/  |
-=======================================================|
+https://docs.djangoproject.com/en/2.0/topics/logging/  
+https://randops.org/2017/09/26/pythons-logging-module-in-a-boto3botocore-context/
+=================================================================================
 
 
 http://mussol.org/2016/12/15/understanding-logging-in-python/
