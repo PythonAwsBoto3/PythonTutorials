@@ -1,3 +1,5 @@
+http://www.techbeamers.com/use-try-except-python/
+
 https://www.journaldev.com/17243
 
 http://thomas-cokelaer.info/tutorials/python/module_os.html
