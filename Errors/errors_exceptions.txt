@@ -46,3 +46,5 @@ When you are not properly handling exceptions, the program will abruptly quit as
 
 http://www.techbeamers.com/use-try-except-python/
 
+http://www.techbeamers.com/python-try-except-beginners/
+
