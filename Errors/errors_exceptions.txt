@@ -1,3 +1,6 @@
+https://en.wikiversity.org/wiki/Python_Concepts/Try_Statement important
+
+
 It is very common to encounter errors during the execution of a program. Two common kinds of errors that you may have to deal with 
 are syntax errors and exceptions. Syntax errors occur when you type the code incorrectly. In such cases, the error  (erroneous) line is 
 repeated by the parser with an arrow pointing to the earliest location where the error was detected.
