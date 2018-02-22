@@ -1,7 +1,7 @@
 https://www.computerhope.com/jargon/r/regex.htm
 https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node79.html
 
-my_str="Pythoy is a language and Python and Pytho4 AND Pytho*"
+my_str="Pythoy is a language and Python and Pytho4 AND Pytho*   and Pythonforu and Pythonn"
 
 my_pat="Pytho."      . -->any character
 my_pat="Pytho\w"    \w -->alphanumeric
@@ -17,16 +17,15 @@ my_pat="Pytho\D"    \D -->non-digit
 
 print re.findall(my_pat,my_str)
 
-
-
-
-
+my_pat=r'Pytho\w+'
 
 my_pat=r'Pytho[ny]'    (eq: Python or Pythony)
 
 print re.findall(my_pat,my_str)
 
 my_pat=r'Pytho[h-n]'  (eq: Pythoh,Pythoi,Pythoj,Pythok  upto Python)
+
+my_pat=r'Pytho[a-jl-q]'  (a-j or l-q)
 
 pritn re.findall(my_pat,my_str)
 
