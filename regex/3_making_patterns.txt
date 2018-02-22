@@ -1,0 +1,45 @@
+https://www.computerhope.com/jargon/r/regex.htm
+https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node79.html
+
+my_str="Pythoy is a language and Python and Pytho4 AND Pytho*"
+
+my_pat="Pytho."      . -->any character
+my_pat="Pytho\w"    \w -->alphanumeric
+my_pat="Pytho\W"     \W-->non-alphanumberic
+
+print re.findall(my_pat,my_str)
+
+my_pat="Pytho\d"   \d -->digit
+
+print re.findall(my_pat,my_str)
+
+my_pat="Pytho\D"    \D -->non-digit
+
+print re.findall(my_pat,my_str)
+
+
+
+
+
+
+my_pat=r'Pytho[ny]'    (eq: Python or Pythony)
+
+print re.findall(my_pat,my_str)
+
+my_pat=r'Pytho[h-n]'  (eq: Pythoh,Pythoi,Pythoj,Pythok  upto Python)
+
+pritn re.findall(my_pat,my_str)
+
+my_str="Python is greatgreat and modules are also greatt  greattttttttttt"
+my_pat=r'great{2}'
+print re.findall(my_pat,my_str)
+
+my_pat=r'(great){2}'
+
+my_pat=r'great{3,}
+
+my_pat=r'great{2,3}
+
+
+
+
