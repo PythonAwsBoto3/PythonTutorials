@@ -42,5 +42,25 @@ my_pat=r'great{3,}
 my_pat=r'great{2,3}
 
 
+my_str='Hi How are you hi'
+my_pat=r'how'
+print re.findall(my_pat,my_str)
+
+print re.findall(my_pat,my_str,re.I)
+print re.findall(my_pat,my_str,flags=re.I)
+
+print re.findall(r'^hi',my_str)
+print re.findall(r'^hi',my_str,re.I)
+
+print re.findall(r'hi$',my_str,re.I)
+
+
+ my_str='hi how are youhow'
+ print re.findall(r'how',my_str)
+['how', 'how']
+ print re.findall(r'how\b',my_str)
+['how', 'how']
+print re.findall(r'\bhow\b',my_str)
+
 
 
