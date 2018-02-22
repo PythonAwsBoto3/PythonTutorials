@@ -34,4 +34,4 @@ Once if you are good at how to make patterns then you shold know different opera
 
 There different operations in re module are:
 
-re.match re.search re.findall re.findaiter, re.split re.sub 
+re.match re.search re.findall re.findaiter, re.complie,re.split re.sub 
