@@ -1,5 +1,8 @@
 https://www.computerhope.com/jargon/r/regex.htm
 https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node79.html
+https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/
+
+
 
 my_str="Pythoy is a language and Python and Pytho4 AND Pytho*   and Pythonforu and Pythonn"
 
