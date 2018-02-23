@@ -3,6 +3,10 @@ https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node79.html
 https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/
 
 
+|==============================================|
+|https://pythex.org/   online editor for regex |
+|==============================================|
+
 
 my_str="Pythoy is a language and Python and Pytho4 AND Pytho*   and Pythonforu and Pythonn"
 
